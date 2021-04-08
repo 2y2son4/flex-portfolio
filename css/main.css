@@ -118,7 +118,7 @@ body {
   text-transform: uppercase;
   font-family: 'Amatic SC', cursive;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .panel p:nth-child(2) {
@@ -138,7 +138,10 @@ body {
 .links:hover {
   color: #061231;
   transform: scale(1.2);
+
+  transform: translate(5px, -10px);
 }
+
 .contact {
   width: 50%;
   color: #1b284b;

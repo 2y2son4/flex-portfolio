@@ -137,10 +137,15 @@ body {
 }
 .links:hover {
   color: #061231;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .contact {
+  width: 50%;
   color: #1b284b;
+  font-size: 20px;
+}
+.contact > a {
+  font-size: 24px;
 }
 
 .cta {

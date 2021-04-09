@@ -9,7 +9,7 @@ Portfolio made using (mostly) flexbox in CSS and a little bit of vanilla JS to g
 <p>
 <details>
 <summary style="color:crimson">Click here to check the <strong>animations</strong>.</summary>
-<p align="left">
+<p align="center">
 <img src="./img/layout.gif">
 </p>
 </details>

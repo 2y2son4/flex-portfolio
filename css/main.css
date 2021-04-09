@@ -21,6 +21,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  animation: flyinBottom 2s linear;
 }
 
 .title {
@@ -178,6 +180,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: flyinBottom 2s linear;
 }
 .footer__span {
   color: whitesmoke;
@@ -196,16 +199,12 @@ body {
   transform: translate(0, -15px);
   border-bottom: 3px #0b3146 solid;
 }
-.fly-in-bottom {
-  animation: flyinBottom 1.2s ease-in;
-}
+
 @keyframes flyinBottom {
   0% {
-    transform: translatey(1000px);
     opacity: 0;
   }
   100% {
-    transform: translatey(0);
     opacity: 1;
   }
 }

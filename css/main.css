@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  background: #e5236e;
-  font-family: 'helvetica neue';
+  background: #ee2a7b;
+  font-family: 'Amatic SC', cursive;
   font-size: 20px;
   font-weight: 200;
 }
@@ -16,8 +16,26 @@ body {
   box-sizing: inherit;
 }
 
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+
+  color: whitesmoke;
+  padding: 0 40px;
+}
+
+.title__img {
+  height: 50px;
+  padding-right: 40px;
+}
 .panels {
-  min-height: 100vh;
+  min-height: 80vh;
   overflow: hidden;
   display: flex;
 }
@@ -25,7 +43,7 @@ body {
 .panel {
   background-color: #6b0f9c;
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
-  color: white;
+  color: whitesmoke;
   text-align: center;
   align-items: center;
   /* Safari transitionend event.propertyName === flex */
@@ -120,8 +138,6 @@ body {
 }
 
 .panel p {
-  text-transform: uppercase;
-  font-family: 'Amatic SC', cursive;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 1.5em;
 }
@@ -153,4 +169,43 @@ body {
 }
 .contact > a {
   font-size: 24px;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__span {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.footer__span--link {
+  color: #0b3146;
+  text-decoration: none;
+  transition: all 0.4s linear;
+  font-weight: bolder;
+}
+
+.footer__span--link:hover {
+  transform: translate(0, -15px);
+  border-bottom: 3px #0b3146 solid;
+}
+.fly-in-bottom {
+  animation: flyinBottom 1.2s ease-in;
+}
+@keyframes flyinBottom {
+  0% {
+    transform: translatey(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatey(0);
+    opacity: 1;
+  }
 }

@@ -43,6 +43,11 @@ body {
 }
 .pointer {
   cursor: pointer;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+.pointer:hover {
+  transform: scale(1.3);
 }
 
 .panel1 {
@@ -95,19 +100,19 @@ body {
   transform: translateY(0);
 }
 .panel.panel1.open.open-active {
-  background: linear-gradient(#6d9926, rgb(182, 204, 146));
+  background: linear-gradient(#0b3146, #145a80);
 }
 .panel.panel2.open.open-active {
-  background: linear-gradient(#9fe62e, #b1d873);
+  background: linear-gradient(#636627, #e0e758);
 }
 .panel.panel3.open.open-active {
-  background: linear-gradient(#e6226d, #e9518b);
+  background: linear-gradient(#752941, #8f324f);
 }
 .panel.panel4.open.open-active {
-  background: linear-gradient(#17e69a, #6cdab1);
+  background: linear-gradient(#165a66, #34d4ef);
 }
 .panel.panel5.open.open-active {
-  background: linear-gradient(#089964, #3d9273);
+  background: linear-gradient(#2c601a, #459428);
 }
 
 .avatar {
@@ -131,27 +136,21 @@ body {
 }
 .links {
   font-size: 40px;
-  color: #1b284b;
+  color: #e4739e;
   padding: 10px;
   transition: all 0.4s ease;
 }
 .links:hover {
-  color: #061231;
+  color: #e6226d;
   transform: scale(1.2);
-
-  transform: translate(5px, -10px);
+  transform: translate(0px, -15px);
 }
 
 .contact {
   width: 50%;
-  color: #1b284b;
+  color: #e4739e;
   font-size: 20px;
 }
 .contact > a {
   font-size: 24px;
-}
-
-.cta {
-  color: white;
-  text-decoration: none;
 }

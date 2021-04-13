@@ -21,13 +21,12 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
   animation: flyinBottom 2s linear;
 }
 
 .title {
   font-family: 'Amatic SC', cursive;
-
+  font-size: 32px;
   color: whitesmoke;
   padding: 0 40px;
 }
@@ -129,7 +128,7 @@ body {
 
 .panel p {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 20px;
+  font-size: 32pxpx;
 }
 
 .panel p:nth-child(2) {
@@ -177,7 +176,7 @@ body {
 .footer__span {
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .footer__span--link {
@@ -190,6 +189,11 @@ body {
 .footer__span--link:hover {
   transform: translate(0, -15px);
   border-bottom: 3px #0b3146 solid;
+}
+
+.footer__span--attr {
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 @keyframes flyinBottom {

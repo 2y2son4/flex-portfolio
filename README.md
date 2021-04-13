@@ -5,14 +5,14 @@ Portfolio made using (mostly) flexbox in CSS and a little bit of vanilla JS to g
 Includes links to show my work a little bit and all the ways to contact me. Let's keep in touch!
 
 <p align="left">
-<img src="./img/meta.png">
+<img src="./assets/meta.png">
 </p>
 
 <p>
 <details>
 <summary style="color:crimson">Click here to check the <strong>animations</strong>.</summary>
 <p align="center">
-<img src="./img/layout.gif">
+<img src="./assets/layout.gif">
 </p>
 </details>
 </p>

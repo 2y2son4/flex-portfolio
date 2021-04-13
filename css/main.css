@@ -129,7 +129,7 @@ body {
 
 .panel p {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 1.5em;
+  font-size: 20px;
 }
 
 .panel p:nth-child(2) {
@@ -155,10 +155,14 @@ body {
 .contact {
   width: 50%;
   color: #e4739e;
-  font-size: 20px;
 }
 .contact > a {
   font-size: 24px;
+}
+
+.img__cv {
+  width: 20px;
+  fill: #e4739e;
 }
 
 .footer {

@@ -1,6 +1,6 @@
 # Flex portfolio.
 
-Portfolio made using (mostly) flexbox in CSS and a little bit of vanilla JS to give it a little movement and charm, isn't it adorable? 😊
+Portfolio made using (mostly) flexbox in CSS and a little bit of vanilla JS to give it movement and charm, isn't it adorable? 😊
 
 Includes links to show my work a little bit and all the ways to contact me. Let's keep in touch!
 
